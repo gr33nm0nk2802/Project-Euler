@@ -1,6 +1,6 @@
 function largestPalindromeProduct(n) {
   
-  const number = parseInt(Array(n).fill(9).join(''));
+  const number = parseInt(Array(n).fill(9).join(''));   // creates n digit number with 9
   let largest = 0;
 
   for(var i = number;i>=1;i--){
@@ -15,10 +15,9 @@ function largestPalindromeProduct(n) {
   return largest;
 }
 
-
+//  Pallindrome checker in JavaScript
 function isPallindrome(num){
   return num.toString()===num.toString().split('').reverse().join('');
 }
 
-console.log(largestPalindromeProduct(4));
-//99000099
+console.log(largestPalindromeProduct(4));    //99000099
