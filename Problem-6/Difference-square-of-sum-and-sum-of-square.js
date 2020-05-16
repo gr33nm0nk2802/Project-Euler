@@ -4,7 +4,7 @@ function sumSquareDifference(n) {
 }
 
 function sumSquare(num){
-  return (((num*(num+1))/2)*((num*(num+1))/2));
+  return Math.pow(((num*(num+1))/2),2);
 }
 
 function squareSum(num){
